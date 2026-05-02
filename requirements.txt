@@ -1,0 +1,72 @@
+# ============================================================
+# requirements.txt — All Python packages this project needs
+# ============================================================
+# Install all of these with: pip install -r requirements.txt
+#
+# HOW TO READ THIS FILE:
+# Each line is a Python package (like an app on your phone).
+# The == means "use exactly this version" (for stability).
+# The >= means "use this version or newer".
+# ============================================================
+
+# --- Core AI Framework ---
+# LangGraph: The agent workflow engine (like a flowchart for AI)
+langgraph>=0.2.0
+
+# LangChain: Helper tools that work with LangGraph
+langchain>=0.3.0
+langchain-community>=0.3.0      # Extra integrations (Ollama, etc.)
+langchain-core>=0.3.0
+
+# --- LLM Providers ---
+# Ollama: Run AI models locally on your computer
+ollama>=0.3
+langchain-ollama>=1.0           # LangChain's Ollama integration
+
+# Google Vertex AI: Google's cloud AI (optional - comment out if causing issues)
+# google-cloud-aiplatform>=1.71
+# langchain-google-vertexai>=2.0
+
+# --- Document Processing ---
+# PyPDF2: Read PDF files
+PyPDF2>=3.0
+pypdf>=5.0                    # Newer PDF library (backup)
+
+# python-docx: Read Word documents (.docx)
+python-docx>=1.1
+
+# --- Web App ---
+# Streamlit: Turns Python into a web app (no HTML needed!)
+streamlit>=1.40
+streamlit-chat>=0.1             # Chat UI components
+streamlit-extras>=0.4           # Extra Streamlit widgets
+
+# --- Data & Utilities ---
+# python-dotenv: Reads your .env file (for secret keys)
+python-dotenv>=1.0
+
+# pydantic: Data validation (makes sure data is correct type/format)
+pydantic>=2.0
+
+# --- Additional ---
+requests>=2.31
+rich>=13.0
+
+# --- Vector Database (for semantic search) ---
+# chromadb: Local vector database to search legal knowledge
+chromadb>=0.5.0
+sentence-transformers>=2.2
+
+# tiktoken: Counts tokens (words) for LLM context limits
+tiktoken>=0.5.0
+
+# --- Security ---
+# cryptography: For encrypting sensitive data
+cryptography>=41.0
+
+# --- Misc ---
+# requests: Make HTTP API calls
+requests==2.32.3
+
+# rich: Pretty terminal output (for debugging)
+rich==13.9.4
