@@ -1,4 +1,4 @@
-# ⚖️ Legal AI Agent — Complete Beginner's Guide
+# ⚖️ Legal AI Agent 
 
 **Built with:** Python · LangGraph · Ollama (Local LLM) · Vertex AI (Google Cloud) · Streamlit
 
@@ -16,7 +16,7 @@ This is a **Legal AI Assistant** that can:
 
 ---
 
-## 🧠 Key Concepts Explained (Zero Knowledge Assumed)
+## 🧠 Key Concepts Explained 
 
 ### What is an AI Agent?
 An AI Agent is NOT just a chatbot. A chatbot only answers one question at a time.
